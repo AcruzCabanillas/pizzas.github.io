@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+  .titulo {
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-size: 60px;
+    color: #d62d2d;
+    margin-top: 30px;
+  }
+  
+  .tabla-contenido {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  
+  .tabla-pizzas {
+    border-collapse: collapse;
+    width: 70%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .tabla-pizzas th, .tabla-pizzas td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  .tabla-pizzas thead {
+    background-color: #d62d2d;
+    color: white;
+  }
+  
+  .no {
+    background-color: #fce9dc;
+  }
+  .si{
+    background-color: white;
+  }
+  
+  .pizza-img {
+    width: 80px;
+    border-radius: 6px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff9f2;
+    
+}
+
+header {
+    background-color: #d62d2d;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 25px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cont:hover{
+    background-color: #f7bc00;
+    transition: transform 0.5 0s linear;
+}
+.icon_wasap {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: green;
+}
